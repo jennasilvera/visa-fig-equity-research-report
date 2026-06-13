@@ -1,42 +1,93 @@
 # Visa FIG Equity Research Report
 
-## Institutional-Quality Payments / FIG Equity Research Coverage Package
+## Institutional-Style Payments / FIG Equity Research Coverage Package
 
-This repository contains a professional equity research and valuation project on **Visa Inc. (NYSE: V)**, built to resemble the work product of a first-year FIG investment banking analyst, equity research associate, or buy-side investment analyst covering the payments sector.
+This repository is a professional equity research and valuation project on **Visa Inc. (NYSE: V)** designed to resemble the work product of a first-year FIG investment banking analyst, equity research associate, or buy-side investment analyst covering the payments sector.
 
-The project includes a full equity research report, supporting financial model, KPI analysis, peer comparable analysis, valuation framework, payments ecosystem research, regulatory risk analysis, and investor-oriented outputs.
+The project includes a full equity research report, supporting financial model, KPI analysis, peer comparable analysis, DCF valuation framework, payments ecosystem research, regulatory risk analysis, competitive analysis, and investor-oriented outputs.
 
-> **Disclaimer:** This project is for educational and recruiting purposes only. It is not investment advice, a recommendation to buy or sell securities, or affiliated with Visa Inc. or any financial institution.
+> **Disclaimer:** This project is for educational, portfolio, and recruiting purposes only. It is not investment advice, a securities recommendation, or affiliated with Visa Inc. or any financial institution.
 
 ---
 
 ## Executive Summary
 
-| Item | Summary |
+| Category | Summary |
 |---|---|
 | Company | Visa Inc. |
 | Ticker | NYSE: V |
 | Sector | Financial Institutions / Payments |
 | Coverage Type | Equity Research / FIG Payments |
-| Recommendation Framework | Outperform / Base Case Positive |
-| Core Thesis | Visa remains a high-quality global payments network with durable secular growth, strong operating leverage, high free cash flow conversion, and optionality from value-added services, Visa Direct, tokenization, fraud/risk tools, and next-generation money movement. |
-| Primary Debate | Whether regulatory pressure, alternative payment rails, wallets, and account-to-account systems can compress Visa's long-term take rate and valuation multiple. |
-| Variant Perception | The market may underappreciate Visa's ability to preserve network relevance through VAS, tokenization, risk/fraud infrastructure, cross-border capabilities, and embedded money movement. |
+| Recommendation Framework | Outperform / Positive Base Case |
+| Core Thesis | Visa remains a high-quality global payments network with durable growth, strong margins, free cash flow conversion, and optionality from value-added services, Visa Direct, tokenization, fraud/risk tools, and next-generation money movement. |
+| Primary Debate | Whether regulatory pressure, client incentives, alternative rails, wallets, account-to-account systems, and stablecoins can compress Visa's long-term take rate and valuation multiple. |
+| Variant Perception | The market may underappreciate Visa's ability to evolve from a card-network toll road into a broader trust, risk, tokenization, identity, and money-movement infrastructure layer. |
 
 ---
 
-## Core Outputs
+## Core Deliverables
 
-| Output | Description |
+| Deliverable | File |
 |---|---|
-| Equity Research Report | Full professional-style Visa initiation report |
-| Financial Model | Historical financials, KPI analysis, peer comps, valuation, and forecast framework |
-| Investment Committee Memo | Buy-side style investment memo summarizing thesis, valuation, catalysts, risks, and variant perception |
-| Valuation Framework | DCF, trading comps, precedent transactions, SOTP, and football-field valuation framework |
-| Payments Ecosystem Analysis | Industry structure, network economics, alternative rails, wallets, stablecoins, and competitive positioning |
-| Regulatory Risk Framework | Regulatory and litigation risk map for payments networks |
-| KPI Dashboard | Payments-specific operating KPI framework |
-| Earnings Analysis | Management commentary and earnings-call analysis framework |
+| Full Equity Research Report | `report/Visa_FIG_Equity_Research_Report.pdf` |
+| Markdown Research Report | `report/Visa_FIG_Equity_Research_Report.md` |
+| Original Financial Model | `model/Visa_FIG_Research_Model.xlsx` |
+| Institutional Model V2 | `model/Visa_Institutional_Model_v2.xlsx` |
+| Investment Committee Memo | `investment_memo/Visa_Investment_Committee_Memo.md` |
+| Variant Perception Analysis | `investment_memo/variant_perception.md` |
+| One-Page Tear Sheet | `tearsheet/Visa_One_Page_Tearsheet.md` |
+| Valuation Package | `valuation/` |
+| Payments Ecosystem Analysis | `industry/` |
+| Competitive Analysis | `competitive_analysis/` |
+| Regulatory Risk Framework | `risk/` |
+| KPI Dashboard Framework | `dashboard/` |
+
+---
+
+## What This Project Demonstrates
+
+This repository demonstrates:
+
+- FIG and payments-sector research capability
+- Institutional-style equity research writing
+- Investment thesis development
+- Financial statement analysis
+- Payments KPI analysis
+- Driver-based forecasting framework
+- DCF valuation architecture
+- Comparable company valuation
+- Precedent transaction analysis
+- Scenario and sensitivity modeling
+- Regulatory risk analysis
+- Competitive positioning analysis
+- Buy-side investment memo writing
+- Professional GitHub documentation
+
+---
+
+## Suggested Review Path for Recruiters
+
+### 5-Minute Review
+
+1. Read this README
+2. Open the one-page tear sheet: `tearsheet/Visa_One_Page_Tearsheet.md`
+3. Skim the investment memo: `investment_memo/Visa_Investment_Committee_Memo.md`
+
+### 15-Minute Review
+
+1. Review the full research report
+2. Open the institutional model
+3. Read the variant perception analysis
+4. Review the Visa vs Mastercard analysis
+5. Review the regulatory risk framework
+
+### Full Technical Review
+
+1. Review the model architecture in `MODEL_GUIDE.md`
+2. Review the valuation package in `valuation/`
+3. Review the payments ecosystem files in `industry/`
+4. Review the competitive analysis in `competitive_analysis/`
+5. Review the risk framework in `risk/`
 
 ---
 
@@ -49,64 +100,19 @@ visa-fig-equity-research/
 ├── MODEL_GUIDE.md
 ├── METHODOLOGY.md
 ├── DATA_DICTIONARY.md
-├── CHANGELOG.md
 ├── DISCLAIMER.md
+├── CHANGELOG.md
 │
 ├── report/
-│   ├── Visa_FIG_Equity_Research_Report.pdf
-│   ├── Visa_FIG_Equity_Research_Report.md
-│   └── figures/
-│
 ├── model/
-│   ├── Visa_FIG_Research_Model.xlsx
-│   ├── model_outputs/
-│   └── model_checks/
-│
-├── valuation/
-│   ├── dcf_summary.md
-│   ├── trading_comps.md
-│   ├── precedent_transactions.md
-│   ├── sotp_analysis.md
-│   └── valuation_football_field.md
-│
 ├── investment_memo/
-│   ├── Visa_Investment_Committee_Memo.md
-│   └── variant_perception.md
-│
-├── earnings/
-│   ├── Visa_Earnings_Call_Analysis.md
-│   ├── Visa_Earnings_Preview.md
-│   ├── Visa_Earnings_Review.md
-│   └── management_commentary_tracker.csv
-│
+├── tearsheet/
+├── valuation/
 ├── industry/
-│   ├── payments_ecosystem_map.md
-│   ├── industry_structure.md
-│   ├── alternative_rails.md
-│   ├── stablecoin_framework.md
-│   └── account_to_account_risk.md
-│
 ├── competitive_analysis/
-│   ├── visa_vs_mastercard.md
-│   ├── payments_competitive_matrix.md
-│   ├── disruption_debate_map.md
-│   └── coverage_universe.md
-│
 ├── risk/
-│   ├── regulatory_risk_framework.md
-│   ├── regulatory_timeline.csv
-│   ├── litigation_tracker.csv
-│   ├── macro_sensitivity.md
-│   └── risk_heatmap.md
-│
 ├── dashboard/
-│   ├── dashboard_notes.md
-│   └── kpi_dashboard_preview.md
-│
 ├── data/
-│   ├── raw/
-│   └── processed/
-│
 ├── notebooks/
-│
+├── scripts/
 └── presentation/
