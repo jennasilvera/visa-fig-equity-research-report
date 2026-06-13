@@ -1,0 +1,8 @@
+Rail,Description,Main Strength,Main Weakness,Visa Risk Level,Most Exposed Use Cases
+ACH,Bank-to-bank batch transfer system,Low cost and wide use,Slower settlement and weak checkout UX,Medium,Bill pay account funding
+RTP,Real-time bank payment network,Instant settlement,Limited consumer checkout adoption,Medium,Disbursements bill pay account transfers
+FedNow,U.S. instant payment infrastructure,Government-supported instant payments,Early adoption stage,Medium,Account transfers merchant payments
+PIX,Brazilian instant payment system,High adoption and low cost,Market-specific economics,Medium/High,Domestic debit-like payments
+UPI,Indian real-time payment system,Massive scale and government support,Market-specific economics,Medium/High,Domestic consumer payments
+Open Banking Payments,Bank-account payment initiation,Low-cost merchant payment,Consumer habit and protection limitations,Medium,Ecommerce debit-like transactions
+Stablecoins,Blockchain settlement assets,Programmable cross-border settlement,Regulatory compliance and UX hurdles,Emerging,Cross-border B2B remittances

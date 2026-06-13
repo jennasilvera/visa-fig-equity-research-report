@@ -2,9 +2,13 @@
 
 ## Purpose
 
-This file maps the payments ecosystem and identifies where Visa participates, where it monetizes, and where competitive threats can emerge.
+This file maps the payments ecosystem around Visa and identifies where Visa participates, where it monetizes, where it partners, and where long-term disruption risk can emerge.
 
-## Ecosystem Flow
+A professional FIG / payments analyst must understand that Visa is not simply a "credit card company." Visa is a global payments network that connects multiple layers of the financial system.
+
+---
+
+## Simplified Payments Flow
 
 ```text
 Consumer / Business

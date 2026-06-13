@@ -1,0 +1,10 @@
+Participant,Role,Relationship to Visa,Monetization / Risk
+Consumer,Initiates payment,Uses Visa directly or through wallet,Drives credentials and transaction volume
+Merchant,Accepts payment,Accepts Visa and pays for card acceptance,Values authorization risk tools and consumer reach
+Issuer,Issues card or credential,Core Visa client,Drives volume and receives incentives
+Acquirer,Connects merchant to network,Partner and merchant distribution channel,Supports acceptance and routing
+Payment Gateway,Enables online checkout,Partner or routing influencer,Can affect payment method mix
+Digital Wallet,Owns checkout interface,Partner if Visa-funded threat if bank-funded,Can preserve or bypass Visa credentials
+Network,Authorizes clears settles,Visa core business,Monetizes volume transactions and cross-border
+Alternative Rail,Moves money outside cards,Competitive rail,Can pressure take rate in selected use cases
+Regulator,Sets market rules,External risk factor,Can affect pricing routing and multiple

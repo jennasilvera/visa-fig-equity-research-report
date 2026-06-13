@@ -1,0 +1,9 @@
+Use Case,A2A Threat Level,Reason,Visa Defense,Model Impact
+Bill Pay,High,Low-risk recurring payment suited to bank transfer,Limited,Lower debit/account funding volume
+Account Funding,High,Natural bank-transfer use case,Speed and trust via Visa Direct,Lower account funding economics
+P2P,High,Users value speed and low cost,Visa Direct can participate,Money movement competition
+Payroll / Disbursements,Medium/High,Faster bank payment attractive,Visa Direct payout capability,Visa Direct growth sensitivity
+Merchant Debit,Medium/High,Merchants may steer to lower-cost bank payments,Rewards habit and fraud protection,Net revenue yield pressure
+Ecommerce Credit,Low/Medium,Credit rewards and disputes matter,Strong card value proposition,Limited base-case impact
+Travel,Low/Medium,Cross-border and disputes matter,Strong global acceptance,Limited base-case impact
+B2B Payments,Medium/High,Bank rails already common,Visa commercial payment opportunity,Scenario-dependent
