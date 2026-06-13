@@ -34,4 +34,4 @@ The goal is to demonstrate the ability to analyze a financial institutions / pay
 
 ## Disclaimer
 
-This project is for educational and recruiting-portfolio purposes only. It is not investment advice.
+This project is for educational purposes only. It is not investment advice.
