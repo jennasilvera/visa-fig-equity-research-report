@@ -1,0 +1,9 @@
+Driver,Base Case Assumption,Bear Case Assumption,Bull Case Assumption,Model Line Affected,Why It Matters
+Nominal Consumer Spending,TBD,TBD,TBD,Payments volume,Primary spending driver
+Cross-Border Travel,TBD,TBD,TBD,Cross-border volume,High-yield revenue driver
+Inflation,TBD,TBD,TBD,Payments volume / real demand,Supports nominal volume but may pressure real spending
+FX,TBD,TBD,TBD,Reported revenue,Affects international translation
+Interest Rates,TBD,TBD,TBD,WACC / terminal multiple,Affects valuation
+Client Incentives,TBD,TBD,TBD,Net revenue yield,Key pricing pressure metric
+Operating Leverage,TBD,TBD,TBD,Operating margin,Determines earnings flow-through
+Recession Risk,TBD,TBD,TBD,Revenue growth / multiple,Downside scenario driver

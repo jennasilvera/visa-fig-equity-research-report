@@ -1,0 +1,10 @@
+Risk Area,Description,Metric Affected,Severity,Probability,Time Horizon,Model Impact,Investor Relevance
+Interchange Regulation,Rules limiting economics within card ecosystem,Payment volume economics / incentives,High,Medium,Medium-term,Higher incentives or lower ecosystem profitability,Potential pressure on card economics
+Network Fee Scrutiny,Pressure on network fees and pricing,Net revenue yield,High,Medium,Near/medium-term,Lower revenue yield,Direct monetization risk
+Debit Routing,Rules allowing merchant routing flexibility,Domestic debit revenue,Medium/High,Medium,Near/medium-term,Lower debit yield,U.S. debit pressure
+Credit Routing Legislation,Potential routing requirements for credit,Credit economics / multiple,High,Low/Medium,Medium-term,Lower terminal multiple,High-impact risk
+Merchant Litigation,Lawsuits challenging fees or rules,Legal costs / multiple,Medium,High,Ongoing,Higher legal cost / lower multiple,Headline overhang
+Antitrust,Scrutiny of network power or exclusivity,Strategic flexibility / pricing,High,Medium,Ongoing,Lower multiple,Competition policy risk
+Open Banking,Bank-account payment initiation and data sharing,Volume / take rate,Medium,Medium,Medium/long-term,Lower selected volume growth,A2A acceleration risk
+Stablecoin Regulation,Digital settlement frameworks,Cross-border / B2B assumptions,Medium,Medium,Long-term,Threat or optionality,Emerging structural issue
+Data Localization,Local data processing requirements,Compliance costs,Medium,Medium,Ongoing,Higher operating expenses,Cost structure risk
