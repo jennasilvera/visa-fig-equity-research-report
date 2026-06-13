@@ -1,0 +1,7 @@
+Company,Ticker,Price,Market Cap ($bn),P/E,EV/EBITDA,Business Mix
+Visa,V,322.39,660.9,28.1,20.5,Global card network + VAS
+Mastercard,MA,489.98,437.6,28.4,20.4,Global card network
+American Express,AXP,325.44,223.3,20.3,Closed-loop network + credit exposure
+Fiserv,FI,64.38,28.3,9.0,N/M,Merchant acquiring / issuer processing
+Global Payments,GPN,67.71,17.9,24.1,N/M,Merchant acquiring / software-led payments
+Shift4,FOUR,41.18,3.0,19.7,6.8,Verticalized merchant acquiring

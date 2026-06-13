@@ -1,0 +1,10 @@
+Category,Dataset,Fields to Collect,Recommended Source,Use in Report/Model
+Filings,Visa 10-K FY2021-FY2025,"Revenue categories, opex, net income, EPS, volumes, transactions, geography",Visa IR / SEC EDGAR,Historical financials and KPI trends
+Filings,Visa 10-Q / earnings releases FY2026 YTD,"Quarterly revenue, EPS, operating metrics, buybacks, guidance",Visa IR / SEC EDGAR,Latest quarter update and run-rate
+Transcripts,Earnings call transcript,"Management commentary, strategic priorities, Q&A",Visa IR / Seeking Alpha / FactSet,Earnings call analysis
+Market data,Daily stock prices,"Price, market cap, shares, EV, beta",FactSet / Bloomberg / Yahoo Finance,Current valuation and historical trading
+Consensus,Forward estimates,"Revenue, EBITDA, EPS, FCF, target prices",FactSet / Capital IQ / Bloomberg,Triangulate valuation and forecast
+Peers,Peer financial statements,"V, MA, AXP, FI, GPN, FOUR, Adyen, PayPal, Block",Company filings,Comparable company analysis
+Industry,Payments market data,"Global payments revenue, purchase volume, ecommerce mix, cash usage",McKinsey / Nilson / Fed / ECB,Industry overview and growth drivers
+Regulatory,Litigation/regulation tracker,"Merchant fee litigation, interchange rules, antitrust, routing",Reuters / court docs / regulators,Risk analysis
+Technology,Emerging rails,"Stablecoins, RTP/FedNow/UPI/PIX, tokenization, AI commerce",Visa releases / central banks / industry reports,Technology risk and strategic opportunities
