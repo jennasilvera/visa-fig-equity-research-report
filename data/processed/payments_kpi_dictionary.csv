@@ -1,0 +1,14 @@
+KPI,Category,Definition,Why It Matters,Primary Source,Model Tab
+Payments Volume,Core Network,Total dollar volume on Visa-branded products,Primary scale driver for service revenue,Visa filings,05_KPI_History
+Processed Transactions,Core Network,Transactions processed by VisaNet,Primary driver of data processing economics,Visa filings,05_KPI_History
+Cross-Border Volume,Core Network,Volume where issuer and merchant are in different countries,High-yield international revenue driver,Visa filings,09_Cross_Border_Model
+Credentials,Network Reach,Cards and digital credentials enabled on Visa network,Measures network reach and issuer penetration,Visa filings,05_KPI_History
+Acceptance Locations,Network Reach,Merchant locations accepting Visa,Measures acceptance moat,Visa filings,05_KPI_History
+Gross Revenue Yield,Monetization,Gross revenue divided by payments volume,Pre-incentive monetization proxy,Calculated,07_Client_Incentives
+Net Revenue Yield,Monetization,Net revenue divided by payments volume,Post-incentive monetization proxy,Calculated,07_Client_Incentives
+Client Incentives / Gross Revenue,Monetization,Client incentives divided by gross revenue,Measures partner economics and pricing pressure,Visa filings / calculated,07_Client_Incentives
+VAS Revenue,Growth Driver,Value-added services revenue,Measures services growth runway,Visa disclosures,08_VAS_Model
+VAS % of Net Revenue,Growth Driver,VAS revenue divided by total net revenue,Measures mix shift toward services,Calculated,08_VAS_Model
+Visa Direct Transactions,Money Movement,Transactions using Visa Direct,Measures non-carded money movement opportunity,Visa disclosures,05_KPI_History
+Commercial Payments Volume,Growth Driver,B2B and commercial volume,Measures commercial digitization opportunity,Visa disclosures,05_KPI_History
+Tokenized Credentials,Digital Enablement,Credentials tokenized for digital payments,Measures ecommerce and wallet relevance,Visa disclosures,05_KPI_History
