@@ -1,0 +1,8 @@
+Threat,KPI to Monitor,Why It Matters,Potential Source,Update Frequency
+Account-to-Account,A2A transaction volume,Tracks account-based displacement risk,Central bank / industry reports,Quarterly
+RTP / FedNow,Real-time payment transaction volume,Tracks instant payment adoption,Network/operator data,Quarterly
+Wallets,Wallet funding mix,Determines whether wallets ride card rails or bypass them,Company disclosures / surveys,Quarterly
+Stablecoins,Stablecoin payment volume,Tracks blockchain settlement adoption,Blockchain analytics / company disclosures,Monthly/Quarterly
+Merchant Steering,Surcharging and routing adoption,Tracks merchant behavior away from cards,Regulatory / merchant surveys,Quarterly
+Regulation,Regulatory proposals and litigation updates,Tracks direct economic risk,Government/legal sources,Ongoing
+Client Incentives,Client incentives as % of gross revenue,Tracks take-rate pressure,Visa filings,Quarterly

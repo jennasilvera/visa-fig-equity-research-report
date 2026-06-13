@@ -1,0 +1,10 @@
+Player Type,Examples,Relationship to Visa,Main Strength,Main Weakness,Threat Level
+Global Open-Loop Networks,Mastercard,Closest peer and competitor,Global acceptance and network scale,Regulatory scrutiny,High
+Closed-Loop Networks,American Express / Discover,Partial competitor,Direct customer relationship and data,Acceptance limitations,Medium
+Merchant Acquirers / Processors,Fiserv / Global Payments / Adyen / Shift4,Partner and competitor,Merchant relationships and acceptance technology,Lower margins and less network power,Medium
+Digital Wallets,Apple Pay / PayPal / Google Pay / Cash App,Partner and front-end threat,Consumer checkout ownership,Often rely on card rails,Medium
+Payment Service Providers,Stripe / Adyen / Checkout.com,Merchant technology layer,Developer integration and global onboarding,Depend on networks for many transactions,Medium
+Real-Time Payment Rails,RTP / FedNow,Alternative infrastructure,Fast settlement and lower cost,Limited card-like protections,Medium
+A2A Systems,PIX / UPI / open banking,Alternative rail,Low cost and government/bank support,Market-specific adoption and weaker protections,Medium/High
+Stablecoin Networks,USDC / bank tokens,Emerging threat and opportunity,Programmable cross-border settlement,Regulatory and UX barriers,Emerging
+Issuer Processors,Marqeta / FIS / Fiserv / Pismo,Infrastructure partner,Issuer technology enablement,Less brand/network power,Low/Medium
