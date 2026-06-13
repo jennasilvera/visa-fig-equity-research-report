@@ -1,0 +1,9 @@
+Method,Primary Use,Weighting,Why It Matters,Limitations
+DCF,Intrinsic value,High,Forces explicit long-term growth and margin assumptions,Sensitive to terminal value
+Forward P/E,Public equity target price,High,Common for large-cap compounders,Can ignore balance sheet and cash flow nuance
+EV/EBITDA,Peer comparison,Medium,Capital-structure-neutral valuation,Less directly tied to EPS
+FCF Yield,Cash-flow cross-check,Medium,Important for buybacks and compounding,Sensitive to working capital and capex
+Historical Multiple Range,Context,Medium,Shows how Visa trades through cycles,Past ranges may not predict future
+SOTP,Strategic valuation,Medium,Separates core network from VAS and money movement,Requires segment assumptions
+Precedent Transactions,M&A context,Low,Useful for FIG/banking analysis,No perfect Visa precedent
+Scenario Valuation,Risk/reward,High,Frames bull base bear downside,Depends on assumptions

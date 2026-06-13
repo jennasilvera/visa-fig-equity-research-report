@@ -1,0 +1,9 @@
+Valuation Method,Low,High,Selected,Weighting,Notes
+DCF - Perpetuity Growth,TBD,TBD,TBD,High,Intrinsic valuation
+DCF - Exit Multiple,TBD,TBD,TBD,High,Terminal multiple cross-check
+Forward P/E,TBD,TBD,TBD,High,Primary public equity method
+EV/EBITDA,TBD,TBD,TBD,Medium,Peer comparison
+FCF Yield,TBD,TBD,TBD,Medium,Cash-flow cross-check
+Historical P/E Range,TBD,TBD,TBD,Medium,Trading history context
+SOTP,TBD,TBD,TBD,Medium,Strategic segment value
+Precedent Transactions,TBD,TBD,TBD,Low,M&A context only
