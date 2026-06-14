@@ -30,7 +30,7 @@ highs = [float(row[2]) for row in rows[1:]]
 widths = [high - low for low, high in zip(lows, highs)]
 y_pos = list(range(len(labels)))
 
-fig, ax = plt.subplots(figsize=(12, 6.8))
+fig, ax = plt.subplots(figsize=(13, 7.2))
 
 ax.barh(y_pos, widths, left=lows, height=0.55)
 
@@ -45,6 +45,10 @@ for i, (low, high) in enumerate(zip(lows, highs)):
     ax.text(low + 3, i, f"${low:.0f}", va="center", ha="right", fontsize=8)
     ax.text(high + 3, i, f"${high:.0f}", va="center", ha="left", fontsize=8)
 
+ax.set_xlim(190, 435)
+ax.tick_params(axis="y", labelsize=9, pad=8)
+fig.subplots_adjust(left=0.26, right=0.96, top=0.90, bottom=0.15)
+
 ax.grid(axis="x", linestyle="--", linewidth=0.5, alpha=0.6)
 
 footnote = (
@@ -53,7 +57,7 @@ footnote = (
 )
 fig.text(0.01, 0.01, footnote, fontsize=7)
 
-plt.tight_layout(rect=[0, 0.04, 1, 1])
+plt.tight_layout(rect=[0.02, 0.05, 0.98, 0.98])
 plt.savefig(OUT_PATH, dpi=200, bbox_inches="tight")
 plt.close()
 
