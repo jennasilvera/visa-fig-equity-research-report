@@ -1,5 +1,55 @@
 # Release Notes
 
+## v2.6 — KPI Dashboard Visual
+
+**Summary:** Added a visual KPI dashboard to the README using the project’s source-backed historical Visa financials and operating KPI files.
+
+### Added
+
+* `assets/charts/visa_kpi_dashboard.png`
+* `scripts/create_kpi_dashboard_visual.py`
+* `data/processed/kpi_dashboard_summary.csv`
+* README KPI dashboard preview section
+
+### Why It Matters
+
+This release gives reviewers a fast visual summary of Visa’s historical revenue, operating income, payments volume, processed transactions, operating margin, net revenue yield, and free cash flow trends.
+
+---
+
+## v2.5 — Valuation Football Field Chart
+
+**Summary:** Added an illustrative football-field valuation chart to show the project’s valuation framework visually.
+
+### Added
+
+* `assets/charts/visa_valuation_football_field.png`
+* `scripts/create_valuation_football_field_chart.py`
+* `data/processed/valuation_football_field_ranges.csv`
+* README valuation preview section
+
+### Why It Matters
+
+This release makes the valuation framework easier to review by summarizing DCF, forward P/E, EV/EBITDA, FCF yield, historical multiple range, and SOTP ranges in a single visual.
+
+---
+
+## v2.4 — README Visual Preview
+
+**Summary:** Added a visual preview of the one-page investment tear sheet directly to the README.
+
+### Added
+
+* `assets/previews/visa_tearsheet_preview.png`
+* README visual preview section
+
+### Why It Matters
+
+This release improves the repository’s first impression by allowing recruiters and interviewers to see the tear sheet immediately without opening the PDF first.
+
+---
+
+
 ## v2.2 — Recruiter Quick Links
 
 **Summary:** Added recruiter-facing quick links to the README so reviewers can immediately access the strongest project artifacts.
