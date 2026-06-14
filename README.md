@@ -38,6 +38,12 @@ For a fast review of the project, start here:
 The football-field chart summarizes the project’s illustrative valuation framework across DCF, forward P/E, EV/EBITDA, FCF yield, historical multiple range, and SOTP methodologies. The ranges are for portfolio demonstration purposes and should be refreshed with current market data before investment use.
 
 ---
+## KPI Dashboard Preview
+
+![Visa historical KPI dashboard](assets/charts/visa_kpi_dashboard.png)
+
+The KPI dashboard summarizes Visa’s historical net revenue, operating income, payments volume, processed transactions, operating margin, net revenue yield, and free cash flow using the project’s source-backed historical data files.
+---
 ## Executive Summary
 
 | Category | Summary |
