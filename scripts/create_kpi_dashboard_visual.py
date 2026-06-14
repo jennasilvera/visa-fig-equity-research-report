@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 FIN_PATH = Path("data/processed/visa_historical_financials_source_backed.csv")
 KPI_PATH = Path("data/processed/visa_operating_kpis_source_backed.csv")
-OUT_PATH = Path("assets/charts/visa_kpi_dashboard.png")
+OUT_PATH = Path("assets/charts/visa_kpi_dashboard_v2.png")
 SUMMARY_PATH = Path("data/processed/kpi_dashboard_summary.csv")
 
 OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
