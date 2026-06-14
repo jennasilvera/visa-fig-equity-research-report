@@ -1,0 +1,9 @@
+Methodology,Low,High,Notes
+DCF - Bear Case,210,270,Illustrative downside range
+DCF - Base Case,280,340,Illustrative intrinsic value range
+DCF - Bull Case,340,410,Illustrative upside range
+Forward P/E,260,360,Illustrative multiple-based range
+EV/EBITDA,250,350,Illustrative enterprise value range
+FCF Yield,240,330,Illustrative free cash flow yield range
+Historical Multiple Range,260,380,Illustrative historical trading range
+SOTP,280,390,Illustrative sum-of-the-parts range

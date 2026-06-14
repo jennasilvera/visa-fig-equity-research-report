@@ -31,7 +31,13 @@ For a fast review of the project, start here:
 ![Visa one-page investment tear sheet preview](assets/previews/visa_tearsheet_preview.png)
 
 ---
+## Valuation Preview
 
+![Visa illustrative valuation football field](assets/charts/visa_valuation_football_field.png)
+
+The football-field chart summarizes the project’s illustrative valuation framework across DCF, forward P/E, EV/EBITDA, FCF yield, historical multiple range, and SOTP methodologies. The ranges are for portfolio demonstration purposes and should be refreshed with current market data before investment use.
+
+---
 ## Executive Summary
 
 | Category | Summary |
