@@ -10,6 +10,23 @@ The project includes a full equity research report, supporting financial model, 
 
 ---
 
+## Quick Links
+
+For a fast review of the project, start here:
+
+- [One-Page Investment Tear Sheet PDF](tearsheet/Visa_One_Page_Tearsheet.pdf)
+- [Full Equity Research Report PDF](report/Visa_FIG_Equity_Research_Report.pdf)
+- [Institutional Excel Model V2](model/Visa_Institutional_Model_v2.xlsx)
+- [Model Validation Report](model/model_checks/model_validation_report.md)
+- [Investment Committee Memo](investment_memo/Visa_Investment_Committee_Memo.md)
+- [Project Review Guide](PROJECT_REVIEW_GUIDE.md)
+- [Project Status](PROJECT_STATUS.md)
+- [Recruiting / Interview Notes](recruiting_resume_interview_notes.md)
+
+
+
+---
+
 ## Executive Summary
 
 | Category | Summary |
