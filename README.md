@@ -43,6 +43,7 @@ The football-field chart summarizes the project’s illustrative valuation frame
 ![Visa historical KPI dashboard](assets/charts/visa_kpi_dashboard_v2.png)
 
 The KPI dashboard summarizes Visa’s historical net revenue, operating income, payments volume, processed transactions, operating margin, net revenue yield, and free cash flow using the project’s source-backed historical data files.
+
 ---
 ## Executive Summary
 
