@@ -26,6 +26,11 @@ For a fast review of the project, start here:
 
 
 ---
+## Visual Preview
+
+![Visa one-page investment tear sheet preview](assets/previews/visa_tearsheet_preview.png)
+
+---
 
 ## Executive Summary
 
