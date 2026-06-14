@@ -34,7 +34,6 @@ operating_margin = [parse_number(row["Operating Margin"]) for row in financials]
 
 payments_volume_t = [parse_number(row["Payments Volume ($T)"]) for row in kpis]
 processed_transactions_b = [parse_number(row["Processed Transactions (B)"]) for row in kpis]
-credentials_b = [parse_number(row["Payment Credentials (B)") if False else "Payment Credentials (B)"]) for row in kpis]
 net_revenue_yield = [parse_number(row["Net Revenue Yield"]) for row in kpis]
 
 with SUMMARY_PATH.open("w", newline="", encoding="utf-8") as f:
@@ -46,67 +45,34 @@ with SUMMARY_PATH.open("w", newline="", encoding="utf-8") as f:
     writer.writerow(["Operating Margin (%)", *operating_margin])
     writer.writerow(["Payments Volume ($T)", *payments_volume_t])
     writer.writerow(["Processed Transactions (B)", *processed_transactions_b])
-    writer.writerow(["Payment Credentials (B)", *credentials_b])
     writer.writerow(["Net Revenue Yield (%)", *net_revenue_yield])
 
-fig, axes = plt.subplots(2, 2, figsize=(13, 8.5))
+fig, axes = plt.subplots(3, 2, figsize=(13, 10))
 
-# Revenue and operating income
-axes[0, 0].plot(years, net_revenue_b, marker="o", label="Net Revenue")
-axes[0, 0].plot(years, operating_income_b, marker="o", label="Operating Income")
-axes[0, 0].set_title("Revenue and Operating Income")
-axes[0, 0].set_ylabel("$ in billions")
-axes[0, 0].legend()
-axes[0, 0].grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
+charts = [
+    (axes[0, 0], net_revenue_b, "Net Revenue", "$ in billions"),
+    (axes[0, 1], operating_income_b, "Operating Income", "$ in billions"),
+    (axes[1, 0], payments_volume_t, "Payments Volume", "$ in trillions"),
+    (axes[1, 1], processed_transactions_b, "Processed Transactions", "billions"),
+    (axes[2, 0], operating_margin, "Operating Margin", "%"),
+    (axes[2, 1], free_cash_flow_b, "Free Cash Flow", "$ in billions"),
+]
 
-# Operating scale with dual axis
-ax1 = axes[0, 1]
-ax2 = ax1.twinx()
-
-line1 = ax1.plot(years, payments_volume_t, marker="o", label="Payments Volume")
-line2 = ax2.plot(years, processed_transactions_b, marker="o", label="Processed Transactions")
-
-ax1.set_title("Operating Scale")
-ax1.set_ylabel("Payments Volume ($T)")
-ax2.set_ylabel("Processed Transactions (B)")
-ax1.grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
-
-lines = line1 + line2
-labels = [line.get_label() for line in lines]
-ax1.legend(lines, labels, loc="upper left")
-
-# Margin and yield with dual axis
-ax3 = axes[1, 0]
-ax4 = ax3.twinx()
-
-line3 = ax3.plot(years, operating_margin, marker="o", label="Operating Margin")
-line4 = ax4.plot(years, net_revenue_yield, marker="o", label="Net Revenue Yield")
-
-ax3.set_title("Margin and Revenue Yield")
-ax3.set_ylabel("Operating Margin (%)")
-ax4.set_ylabel("Net Revenue Yield (%)")
-ax3.grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
-
-lines = line3 + line4
-labels = [line.get_label() for line in lines]
-ax3.legend(lines, labels, loc="upper left")
-
-# Free cash flow
-axes[1, 1].plot(years, free_cash_flow_b, marker="o", label="Free Cash Flow")
-axes[1, 1].set_title("Free Cash Flow")
-axes[1, 1].set_ylabel("$ in billions")
-axes[1, 1].legend()
-axes[1, 1].grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
+for ax, values, title, ylabel in charts:
+    ax.plot(years, values, marker="o")
+    ax.set_title(title)
+    ax.set_ylabel(ylabel)
+    ax.grid(True, linestyle="--", linewidth=0.5, alpha=0.6)
 
 fig.suptitle("Visa Historical KPI Dashboard", fontsize=16)
 
 footnote = (
     "Source: Project CSVs based on Visa annual reports / Form 10-K data. "
-    "Portfolio project only; not investment advice."
+    "Portfolio project only; not investment advice. Net revenue yield is tracked in the data file and model."
 )
 fig.text(0.01, 0.01, footnote, fontsize=8)
 
-plt.tight_layout(rect=[0, 0.04, 1, 0.95])
+plt.tight_layout(rect=[0, 0.04, 1, 0.96])
 plt.savefig(OUT_PATH, dpi=200, bbox_inches="tight")
 plt.close()
 
