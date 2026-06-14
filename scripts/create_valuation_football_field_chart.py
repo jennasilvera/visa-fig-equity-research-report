@@ -30,7 +30,7 @@ highs = [float(row[2]) for row in rows[1:]]
 widths = [high - low for low, high in zip(lows, highs)]
 y_pos = list(range(len(labels)))
 
-fig, ax = plt.subplots(figsize=(11, 6.2))
+fig, ax = plt.subplots(figsize=(12, 6.8))
 
 ax.barh(y_pos, widths, left=lows, height=0.55)
 
@@ -42,8 +42,8 @@ ax.set_xlabel("Illustrative Implied Share Price Range ($)")
 ax.set_title("Visa Illustrative Valuation Football Field")
 
 for i, (low, high) in enumerate(zip(lows, highs)):
-    ax.text(low - 4, i, f"${low:.0f}", va="center", ha="right", fontsize=8)
-    ax.text(high + 4, i, f"${high:.0f}", va="center", ha="left", fontsize=8)
+    ax.text(low + 3, i, f"${low:.0f}", va="center", ha="right", fontsize=8)
+    ax.text(high + 3, i, f"${high:.0f}", va="center", ha="left", fontsize=8)
 
 ax.grid(axis="x", linestyle="--", linewidth=0.5, alpha=0.6)
 
